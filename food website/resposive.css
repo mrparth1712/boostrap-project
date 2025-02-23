@@ -1,0 +1,37 @@
+/* media query rule max width means jayre example tarike me jemke 991 ni scrren ma max-width aaipi to ee ultu kam kre eetle ke 991 thi jayre niche screen karu tyre j ee lage 
+aane jayre min-width 991 px aapu to ee 991 thi uper ni screen ma lage eetle min-width eetle thi uper ane max-width eetle thi nivche kam kare ok */
+@media (max-width:1024px){
+    /*about section*/
+}
+@media(min-width:991px){
+    /*custom classes*/
+    .text-content{
+        width:100%
+    }
+
+    /*navbar-brand*/
+    .navigation-wrap .navbar-brand img{
+        height: 3.8125rem;
+       
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color:white;
+    }
+
+}
+/* toggler section */
+@media(max-width:991px){
+    .navigation-wrap{
+        padding-right: 50px;
+    }
+}
+
+/* story section */
+
+@media(max-width:767px){
+    .story-section{
+        height: auto;
+        padding: 48px 0;
+    }
+}
