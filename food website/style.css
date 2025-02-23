@@ -187,11 +187,36 @@ p{
 .counter-section{
     background-color: var(--primary-color);
     padding: 2.5rem 0;
+    margin-top: 40px;
 }
 .counter-section p{
     color: var(--white-color);
     text-transform: uppercase;
 }
+
+/*about*/
+.about-section{
+    background: var(--white-color);
+}
+.about-section-wrapper{
+    padding-top: 90px;
+}
+.about-section .card,
+.about-section .card img{
+    border-radius: 10px 10px 10px 10px;
+}
+/* food type */
+.food-type{
+    padding-top: 48px;
+}
+.food-type ul li{
+    font-size: 1rem;
+    color: var(--white-color);
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+}
+
 
 
 
